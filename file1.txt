@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 Hello from branch1
-=======
 Hello from branch2
->>>>>>> 34f7457e (Branch2 change)
-
