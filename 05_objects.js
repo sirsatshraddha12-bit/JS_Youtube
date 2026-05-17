@@ -80,3 +80,4 @@ navbar(company = "shraddha");
     course: "js in hindi";
     price: 999
 };
+
