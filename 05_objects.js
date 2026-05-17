@@ -57,6 +57,26 @@ console.log(tinderUser.hasOwnProperty("name"));        //true
 
 //lec 2nd
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Shraddha"
+}
+//courseInstructor
 
+const {courseInstructor} = course
+console.log(courseInstructor);        //shraddha
 
+const navbar = {{company}} => {
 
+}
+
+navbar(company = "shraddha")
+
+//API
+
+{
+    name: "shraddha",
+    course: "js in hindi",
+    price: "999",
+}
