@@ -26,10 +26,27 @@ const result = addTwoNumbers(3 + 4)
 
 function loginUserMessage(username) {
     if(username === unndefined) {
-        console.log("please enter a username");
+       // console.log("please enter a username");
         return
     }
     return '${username} just logged in'
 }
-console.log(loginUserMessage());            //plz enter a username
-                                              //undefined
+//console.log(loginUserMessage());            //plz enter a username
+                                              //undefined just logged in
+
+
+function calculateCartPrice(val1,val2...num1){
+    return num1
+}                                  
+//console.log(calculateCartPrice(200,300,700,400));        //[700,400]         
+
+
+const user = {
+    username: "Shraddha",
+    price: 999
+}
+
+function handleObject(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+handleobject(user);
