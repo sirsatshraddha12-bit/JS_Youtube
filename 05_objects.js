@@ -67,16 +67,16 @@ const course = {
 const {courseInstructor} = course
 console.log(courseInstructor);        //shraddha
 
-const navbar = {{company}} => {
+const navbar = {company}; {
 
 }
 
-navbar(company = "shraddha")
+navbar(company = "shraddha");
 
 //API
 
 {
-    name: "shraddha",
-    course: "js in hindi",
-    price: "999",
-}
+    name: "shraddha";
+    course: "js in hindi";
+    price: 999
+};
