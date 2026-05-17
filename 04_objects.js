@@ -6,10 +6,10 @@ const mySym=Symbol("key1");
 
 const JsUser={
     name: "John",
-    [mySym]
-    full name:"shraddha Sirsat"
-    age:18,
-    email:"hitesh@google.com,
+    [mySym]: "key1",
+    Fullname: "shraddha Sirsat",
+    Age: "18",
+    email: "hitesh@google.com",
     isLoggedIn:false,
     LastLoginDays:["Monday","Tuesday","Wednesday"],
 }
